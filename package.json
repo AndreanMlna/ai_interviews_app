@@ -9,7 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^3.0.31",
+    "@google/genai": "^1.42.0",
     "@hookform/resolvers": "^5.2.2",
+    "@vapi-ai/web": "^2.5.2",
+    "ai": "^6.0.100",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.19",
