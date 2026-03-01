@@ -123,12 +123,18 @@ const Agent = ({
         setCallStatus(CallStatus.CONNECTING);
 
         if (type === "generate") {
-            await vapi.start(process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID!, {
-                variableValues: {
-                    username: userName,
-                    userid: userId,
-                },
-            });
+            await vapi.start(
+                undefined,
+                undefined,
+                undefined,
+                process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID!,
+                {
+                    variableValues: {
+                        username: userName,
+                        userid: userId,
+                    },
+                }
+            );
         } else {
             let formattedQuestions = "";
             if (questions) {
@@ -170,7 +176,7 @@ const Agent = ({
                 <div className="card-border">
                     <div className="card-content">
                         <Image
-                            src="/user-avatar.png"
+                            src="/baru.png"
                             alt="profile-image"
                             width={539}
                             height={539}
