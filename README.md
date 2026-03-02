@@ -33,7 +33,7 @@ Platform persiapan wawancara kerja berbasis AI yang membantu pengguna berlatih i
 
 1. **Clone repositori:**
    ```bash
-   git clone [https://github.com/username/jsm_mock_interview_platform.git](https://github.com/username/jsm_mock_interview_platform.git)
+   git clone [https://github.com/username/jsm_mock_interview_platform.git](https://github.com/AndreanMlna/jsm_mock_interview_platform.git)
    cd jsm_mock_interview_platform
 Install dependensi:
 
